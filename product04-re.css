@@ -1,0 +1,91 @@
+@media(max-width:900px){
+    /* --- */
+    .more{
+        font-size:20px;
+    }
+    h1{
+        font-size:30px;
+    }
+    /* - トップ - */
+    .top-view{
+        height:60px;
+    }
+    .nav a{
+        line-height:40px;
+        font-size:20px;
+        padding: 0 10px;
+    }
+    /* - プロダクト - */
+    .main-view{
+        border:#4d4d4d 2px solid;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+    /* - コンタクト - */
+    .img06{
+        width:40%;
+    }
+    .txt06{
+        width:60%;
+    }
+    .hide06{
+        font-size:18px;
+    }
+    .icon06 i{
+        font-size:100px;
+    }
+}
+/*  
+@media(min-width:601px){  }
+*/
+@media(max-width:600px){
+  /* --- */
+  body{
+      font-size:14px;
+  }
+  .container{
+    margin-bottom:20px;
+}
+h1{
+    font-size:20px;
+}
+.stecker{
+    display:block;
+}
+/* - Top - */
+
+.nav{
+    display:none;
+}
+#hide-list{
+    display:block;
+}
+/* - プロダクト - */
+.main-view{
+    border:#4d4d4d 2px solid;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+h2{
+    font-size:20px;
+}
+.url,.tool{
+    font-size:18px;
+}
+
+/* - コンタクト - */
+.bottom-view{
+    height:30%;
+}
+.content06{
+    display:block;
+}
+.img06{
+    display:none;
+}
+/* - フッター - */
+.footer{
+    background-color: #C7A23A;
+}
+
+}
