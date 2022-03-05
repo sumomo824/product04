@@ -1,0 +1,219 @@
+body{
+    background-color:#F8F8F5;
+    box-sizing: border-box;
+    font-family: fot-tsukuaoldmin-pr6n, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display:none;
+    color:#4d4d4d;
+    font-size:18px;
+    
+}
+.container{
+    width:95%;
+    margin:0 auto;
+    max-width:1200px;
+    margin-bottom:20px;
+}
+h1{
+    font-size:40px;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.25);
+}
+.stecker{
+    display:none;
+    position:absolute;
+    top:0;
+    right:75px;
+    background-color:#C7A23A ;
+    width:80px;
+    height:40px;
+    transform:rotate(90deg);
+    border-radius:20px;
+}
+/* --------------トップ-------------- */
+.top-view{
+    margin-top:20px;
+    padding:10px 10px;
+    height:80px;
+}
+.nav{
+    height:100%;
+    display:flex;
+    flex-direction:row-reverse;
+}
+.nav ul{
+    display:flex;
+    flex-direction: row;
+}
+.nav a{
+    width:100%;
+    padding:0 20px;
+    line-height:60px; 
+    list-style: none;
+    display:block;
+    font-size:30px;
+}
+.nav a:hover{
+    color:#C7A23A;
+    border-bottom:#C7A23A 2px solid;
+}
+/* ----------ハンバーガー---------- */
+#hide-list{
+    width:30px;
+    height:30px;
+    position:absolute;
+    top:35px;
+    right:45px;
+    display:none;
+    z-index: 100;
+}
+#hide-list:hover{
+    cursor: pointer;
+}
+#hide-list div{
+    display:block;
+    width:30px;
+    height:4px;
+    background-color:#4d4d4d;
+    border:#4d4d4d solid 1.5px;
+    border-radius: 3px;
+    position:absolute;
+}
+#HI01{
+   top:10%; 
+}
+#HI02{
+    top:40%;
+}
+#HI03{
+    top:70%;
+}
+#hide-list.close #HI01{
+    transform:rotate(45deg);
+    top:40%;
+    transition: transform .3s;
+}
+#hide-list.close #HI02{
+    opacity:0;
+    transition: opacity .3s;
+}
+#hide-list.close #HI03{
+    transform:rotate(-45deg);
+    top:40%;
+    transition: transform .3s;
+}
+/* ------------ハイドメニュー------------ */
+.container00{
+    visibility: hidden;    
+    opacity: 0;
+    background-color:#F8F8F5;
+    width:100vw;
+    height:100vh;
+    z-index:99;
+    position:fixed;
+    top:0;
+    left:0;
+    font-size: 20px;
+    transition:all .5s;
+}
+.container00 nav{
+    width:90%;
+    height:90%;
+    margin:0 auto;
+    border:2px solid #4d4d4d;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    text-align:center;
+    margin-top:20px;
+    line-height:40px;
+    /**/
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container00 li:hover{
+    color:#C7A23A;
+}
+.container00.fade{
+    visibility: visible;
+    opacity:1;
+}
+.no-scroll{
+    overflow:hidden;
+}
+/* ------------プロダクト------------ */
+.main-view{
+    padding:5% 10px;
+    border:#4d4d4d 3px solid;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    text-align:center;
+}
+.img02{
+    width:90%;
+    margin:0 auto;
+}
+.img02 img{
+    width:100%;
+}
+.product p{
+    margin-top:20px;
+}
+h2{
+    font-size:25px;
+}
+.url,.tool{
+    font-size:20px;
+}
+.link{
+    color:#C7A23A;
+}
+.txt02{
+    width:80%;
+    margin:0 auto;
+}
+/* ------------コンタクト------------ */
+.content06{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    text-align:center;
+}
+.txt06{
+    margin:0 auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    width:50%;
+}
+.icon06{
+    width:50%;
+}
+.icon06 i{
+    font-size:200px;
+}
+.line{
+    width:60%;
+    height:6px;
+    margin:0 auto;
+    background-color:#c7a13a00;
+    border-bottom:1px solid #c7a13a00;
+    border-radius:4px;
+    margin-bottom:20px;
+}
+.hide06{
+    font-size:25px;
+    color:#4d4d4d00;
+}
+.i2{
+    inline-size:min-content;
+}
+/* -------------フッター------------- */
+.footer{
+    width:100%;
+    height:25px;
+    line-height:25px;
+    background-color: #4d4d4d;
+    color:white;
+    text-align:center;
+}
